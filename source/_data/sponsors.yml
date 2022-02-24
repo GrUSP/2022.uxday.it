@@ -1,0 +1,49 @@
+sponsors_block_title: ""
+# main:
+#  sponsor1:
+#    name: ""
+#    logo_filename: ""
+#    site_url: ""
+# diamond:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+# platinum:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+# gold:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+# silver:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+# bronze:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+#   sponsor2:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+#   sponsor3:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+# diversity:
+#   sponsor1:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
+
+# Partner configuration
+partner_tags:
+  - css
+  - frontend
