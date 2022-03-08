@@ -2,7 +2,7 @@
   display: flex;
   align-items: center; }
   .title-container svg {
-    background-color: #5ab5c9;
+    background-color: #1A5F5D;
     fill: #fff;
     margin-right: 1em; }
   .title-container h1 {
@@ -59,7 +59,7 @@
           min-width: 25%;
           max-width: 25%; } }
       .welcome__container_moreinfo .summary-blocks .block a {
-        color: #9dd0de; }
+        color: #67BFB7; }
       .welcome__container_moreinfo .summary-blocks .block .row-info {
         display: flex;
         flex-direction: row;

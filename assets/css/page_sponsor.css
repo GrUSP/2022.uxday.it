@@ -1,6 +1,6 @@
 #sponsor h1 {
   text-transform: none;
-  color: #5ab5c9;
+  color: #1A5F5D;
   font-size: 2em;
   line-height: 1.2; }
   @media screen and (min-width: 769px), print {
@@ -38,7 +38,7 @@
   margin: 0 0 1em 0; }
 
 .background-light {
-  background-color: #9dd0de; }
+  background-color: #67BFB7; }
   .background-light a {
     color: #000;
     font-weight: 600; }
@@ -79,18 +79,18 @@
     border-style: solid;
     border-width: 40px 160px 0 160px;
     border-top-color: #000;
-    border-right-color: #5ab5c9;
-    border-bottom-color: #5ab5c9;
-    border-left-color: #5ab5c9;
+    border-right-color: #1A5F5D;
+    border-bottom-color: #1A5F5D;
+    border-left-color: #1A5F5D;
     margin: 0 auto;
     padding: 0; }
     @media screen and (orientation: portrait) and (max-width: 360px) {
       .options-container .triangle {
         border-width: 40px 150px 0 150px; } }
     .options-container .triangle.triangle_description_2 {
-      border-right-color: #c7e4ef;
-      border-bottom-color: #c7e4ef;
-      border-left-color: #c7e4ef; }
+      border-right-color: #ACE2DC;
+      border-bottom-color: #ACE2DC;
+      border-left-color: #ACE2DC; }
     .options-container .triangle.triangle_description_3 {
       border-right-color: rgba(0, 0, 0, 0.4);
       border-bottom-color: rgba(0, 0, 0, 0.4);
@@ -112,10 +112,10 @@
       border-bottom-color: #fff;
       border-left-color: #fff; }
   .options-container .level-block__description_1 {
-    background-color: #5ab5c9;
+    background-color: #1A5F5D;
     color: #fff; }
   .options-container .level-block__description_2 {
-    background-color: #c7e4ef; }
+    background-color: #ACE2DC; }
   .options-container .level-block__description_3 {
     background-color: rgba(0, 0, 0, 0.4); }
   .options-container .level-block__description_4 {

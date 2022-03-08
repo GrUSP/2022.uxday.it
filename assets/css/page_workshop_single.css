@@ -7,7 +7,7 @@
   text-align: left; }
 
 #page-workshop .button:hover, #page-workshop .button:active, #page-workshop .button:focus {
-  border-color: #5ab5c9; }
+  border-color: #1A5F5D; }
 
 #page-workshop span.teacher-org::before {
   content: ' @ '; }
@@ -79,15 +79,15 @@
     align-items: flex-start; }
     .workshop-single__header .inner .button.is-primary {
       background-color: #fff !important;
-      color: #5ab5c9;
+      color: #1A5F5D;
       border-color: #fff !important; }
       .workshop-single__header .inner .button.is-primary:hover, .workshop-single__header .inner .button.is-primary:active, .workshop-single__header .inner .button.is-primary:focus {
-        background-color: #5ab5c9 !important;
+        background-color: #1A5F5D !important;
         color: #fff !important;
-        border-color: #5ab5c9 !important; }
+        border-color: #1A5F5D !important; }
 
 .workshop-single__container h1, .workshop-single__container h2 {
-  color: #5ab5c9; }
+  color: #1A5F5D; }
 
 .workshop-single__container .workshop-single__intro .row-info {
   display: flex;
@@ -112,9 +112,9 @@
   margin-top: 1em; }
 
 .workshop-single__container .workshop-single__intro .button.is-primary {
-  border-color: #5ab5c9 !important; }
+  border-color: #1A5F5D !important; }
   .workshop-single__container .workshop-single__intro .button.is-primary:hover, .workshop-single__container .workshop-single__intro .button.is-primary:active, .workshop-single__container .workshop-single__intro .button.is-primary:focus {
-    border-color: #5ab5c9 !important; }
+    border-color: #1A5F5D !important; }
 
 .workshop-single__container .workshop-single__teacher {
   background-color: rgba(0, 0, 0, 0.1); }
@@ -126,14 +126,14 @@
     padding: 2em 0; }
 
 .workshop-single__container .workshop-single__moreinfo h3 {
-  color: #5ab5c9;
+  color: #1A5F5D;
   margin: 1em 0; }
 
 .workshop-single__container .workshop-single__moreinfo ul {
   list-style: disc inside; }
 
 .workshop-single__container .workshop-single__cta {
-  background-color: #5ab5c9; }
+  background-color: #1A5F5D; }
   .workshop-single__container .workshop-single__cta .inner {
     margin: 0 auto;
     padding: 2em 0;
@@ -143,10 +143,10 @@
       margin-bottom: 1em; }
     .workshop-single__container .workshop-single__cta .inner .button.is-primary {
       background-color: #fff !important;
-      color: #5ab5c9;
+      color: #1A5F5D;
       border-color: #fff; }
       .workshop-single__container .workshop-single__cta .inner .button.is-primary:hover, .workshop-single__container .workshop-single__cta .inner .button.is-primary:active, .workshop-single__container .workshop-single__cta .inner .button.is-primary:focus {
-        background-color: #5ab5c9 !important;
+        background-color: #1A5F5D !important;
         color: #fff !important;
         border-color: #fff !important; }
 
@@ -185,7 +185,7 @@
           font-size: 2em;
           text-transform: uppercase; }
       .workshop-single__container .workshop-single__summary .summary-blocks .block strong {
-        color: #9dd0de; }
+        color: #67BFB7; }
       .workshop-single__container .workshop-single__summary .summary-blocks .block a {
         color: #fff; }
   .workshop-single__container .workshop-single__summary .is-centered {

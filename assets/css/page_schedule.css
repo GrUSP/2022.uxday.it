@@ -956,15 +956,15 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       .date-menu a {
         margin: 0 2em; } }
     .date-menu a:hover, .date-menu a:active, .date-menu a:focus {
-      border-color: #5ab5c9 !important; }
+      border-color: #1A5F5D !important; }
 
 .timeline {
   margin-bottom: 3em;
-  border: 1px solid #5ab5c9; }
+  border: 1px solid #1A5F5D; }
   .timeline:last-of-type {
     padding-bottom: 0; }
   .timeline .info-bar {
-    background-color: #5ab5c9;
+    background-color: #1A5F5D;
     padding: 1em; }
     .timeline .info-bar .row-info {
       display: flex;
@@ -983,12 +983,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     color: #000; }
     .timeline table tr td {
       padding: .5em 1em;
-      border-left: 1px solid #5ab5c9; }
+      border-left: 1px solid #1A5F5D; }
       .timeline table tr td.has-background {
         background-color: rgba(0, 0, 0, 0.1); }
       .timeline table tr td::before {
         content: "\2022";
-        color: #5ab5c9;
+        color: #1A5F5D;
         font-weight: 600;
         font-size: 2em;
         display: inline-block;
@@ -1000,7 +1000,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         padding-bottom: 1em; }
       .timeline table tr td time {
         font-weight: 600;
-        color: #5ab5c9;
+        color: #1A5F5D;
         margin-left: -.7em; }
       .timeline table tr td span {
         font-weight: 200;
@@ -1015,14 +1015,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       .timeline table tr td .track-title {
         font-weight: 600;
         font-style: normal;
-        color: #5ab5c9; }
+        color: #1A5F5D; }
         .timeline table tr td .track-title::after {
           content: ""; }
       .timeline table tr td svg {
         margin-top: -3em;
         margin-bottom: -2em; }
         .timeline table tr td svg path {
-          fill: #5ab5c9; }
+          fill: #1A5F5D; }
       .timeline table tr td img {
         display: inline;
         margin-top: -50px;

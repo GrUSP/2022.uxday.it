@@ -16,7 +16,7 @@
       #speakers .title-container .columns .row-info .info-icon svg {
         background-color: #fff; }
         #speakers .title-container .columns .row-info .info-icon svg path {
-          fill: #5ab5c9; }
+          fill: #1A5F5D; }
     #speakers .title-container .columns .row-info .info-icon.padded {
       padding: 0 0 0 10px; }
       @media screen and (min-width: 769px), print {
@@ -24,7 +24,7 @@
           padding: 0 0 0 30px; } }
 
 #speakers h1 {
-  color: #5ab5c9; }
+  color: #1A5F5D; }
   #speakers h1.is-centered {
     margin: 0 auto; }
 
@@ -33,7 +33,7 @@
   text-align: left;
   font-size: 1.8em;
   line-height: 1.2;
-  color: #5ab5c9;
+  color: #1A5F5D;
   padding-top: 5em;
   margin-top: -5em; }
   @media screen and (min-width: 769px), print {
@@ -44,13 +44,13 @@
     text-align: left;
     font-size: 1.4em;
     line-height: 1.2;
-    color: #5ab5c9; }
+    color: #1A5F5D; }
   #speakers h2 strong::after {
     content: ' '; }
 
 #speakers h3 {
   font-size: 1.5em;
-  color: #5ab5c9;
+  color: #1A5F5D;
   padding-top: 5em;
   margin-top: -5em; }
   @media screen and (min-width: 769px), print {
@@ -75,10 +75,10 @@
       #speakers .date-menu a {
         margin: 0 2em; } }
     #speakers .date-menu a:hover, #speakers .date-menu a:active, #speakers .date-menu a:focus {
-      border: 1px solid #5ab5c9; }
+      border: 1px solid #1A5F5D; }
 
 .date-holder {
-  background-color: #5ab5c9;
+  background-color: #1A5F5D;
   color: #fff; }
   .date-holder .inner {
     padding: 0;
@@ -162,13 +162,13 @@
   .block-speaker .columns_talk-title {
     display: block; }
   .block-speaker .has-border {
-    border: 8px solid #9dd0de;
+    border: 8px solid #67BFB7;
     background-color: #fff;
     padding: 1em;
     margin-top: 2em;
     text-align: left; }
     .block-speaker .has-border span.speaker-name {
-      color: #5ab5c9; }
+      color: #1A5F5D; }
       .block-speaker .has-border span.speaker-name:after {
         content: " "; }
 
@@ -178,7 +178,7 @@ a.secondary-menu-button {
   margin-left: -80px;
   margin-top: -16px;
   right: 0;
-  background-color: #5ab5c9;
+  background-color: #1A5F5D;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   color: #fff;
@@ -202,7 +202,7 @@ aside.menu.secondary-menu {
   position: fixed;
   right: -14em;
   top: 6em;
-  background-color: #5ab5c9;
+  background-color: #1A5F5D;
   transition: all .5s;
   display: inline-flex; }
   aside.menu.secondary-menu .secondary-menu-button-container {

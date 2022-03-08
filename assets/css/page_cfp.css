@@ -2,7 +2,7 @@
   display: flex;
   align-items: center; }
   .title-container svg {
-    background-color: #5ab5c9;
+    background-color: #1A5F5D;
     fill: #fff;
     margin-right: 1em; }
   .title-container h1 {
@@ -15,7 +15,7 @@
 
 .container__more {
   padding: 2em 0;
-  background-color: #9dd0de; }
+  background-color: #67BFB7; }
   .container__more h3 {
     font-style: normal;
     text-align: center;

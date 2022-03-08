@@ -2,12 +2,12 @@
   padding-top: 5em; }
 
 #workshop h1 {
-  color: #5ab5c9; }
+  color: #1A5F5D; }
 
 #workshop h2 {
   text-align: center;
   font-style: normal;
-  color: #5ab5c9; }
+  color: #1A5F5D; }
 
 .workshop__container {
   padding: 1em 0 2em;
@@ -23,7 +23,7 @@
   .workshop__container h5 {
     text-transform: none;
     font-weight: 600;
-    color: #5ab5c9; }
+    color: #1A5F5D; }
   .workshop__container p {
     color: #000; }
   .workshop__container .columns {
@@ -67,19 +67,19 @@
       align-content: center;
       justify-content: center;
       text-align: center;
-      background-color: #5ab5c9;
-      border: 1px solid #5ab5c9; }
+      background-color: #1A5F5D;
+      border: 1px solid #1A5F5D; }
       .workshop__container .workshop-buttons .workshop-buttons__button-container:hover, .workshop__container .workshop-buttons .workshop-buttons__button-container:focus, .workshop__container .workshop-buttons .workshop-buttons__button-container:active {
         background-color: #fff; }
         .workshop__container .workshop-buttons .workshop-buttons__button-container:hover svg path, .workshop__container .workshop-buttons .workshop-buttons__button-container:hover svg polygon, .workshop__container .workshop-buttons .workshop-buttons__button-container:focus svg path, .workshop__container .workshop-buttons .workshop-buttons__button-container:focus svg polygon, .workshop__container .workshop-buttons .workshop-buttons__button-container:active svg path, .workshop__container .workshop-buttons .workshop-buttons__button-container:active svg polygon {
-          fill: #5ab5c9; }
+          fill: #1A5F5D; }
       .workshop__container .workshop-buttons .workshop-buttons__button-container a {
         color: #fff;
         text-transform: uppercase;
         font-size: .8em;
         font-weight: 600; }
       .workshop__container .workshop-buttons .workshop-buttons__button-container:hover > a, .workshop__container .workshop-buttons .workshop-buttons__button-container:focus > a, .workshop__container .workshop-buttons .workshop-buttons__button-container:active > a {
-        color: #5ab5c9;
+        color: #1A5F5D;
         text-decoration: none; }
   .workshop__container .workshop-buttons__button {
     width: 120px;
@@ -112,7 +112,7 @@
     padding-top: 2em;
     flex-wrap: wrap; }
   .workshop__container .button.is-primary {
-    background-color: #5ab5c9;
+    background-color: #1A5F5D;
     font-weight: 700;
     padding-left: 1em;
     padding-right: 1em;
@@ -123,6 +123,6 @@
         padding-right: 2em;
         margin-right: 1em; } }
     .workshop__container .button.is-primary:hover, .workshop__container .button.is-primary:active, .workshop__container .button.is-primary:focus {
-      color: #5ab5c9;
-      border-color: #5ab5c9;
+      color: #1A5F5D;
+      border-color: #1A5F5D;
       background-color: #fff; }
