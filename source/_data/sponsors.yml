@@ -14,11 +14,15 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# gold:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+gold:
+  sponsor1:
+    name: "Belka"
+    logo_filename: "belka.svg"
+    site_url: "http://belkadigital.com"
+  sponsor2:
+    name: "Workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
 # silver:
 #   sponsor1:
 #     name: ""
