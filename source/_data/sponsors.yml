@@ -23,11 +23,11 @@ gold:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# silver:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+silver:
+  sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
 # bronze:
 #   sponsor1:
 #     name: ""
@@ -41,11 +41,11 @@ gold:
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# diversity:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diversity:
+  sponsor1:
+    name: "Codice Plastico"
+    logo_filename: "codice plastico.svg"
+    site_url: "https://codiceplastico.com/"
 
 # Partner configuration
 partner_tags:
