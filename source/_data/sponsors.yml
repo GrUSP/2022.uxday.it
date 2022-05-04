@@ -28,15 +28,19 @@ silver:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-# bronze:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+  sponsor2:
+    name: "SiteGround"
+    logo_filename: "siteground.png"
+    site_url: "https://www.siteground.com/"
+bronze:
+  sponsor1:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+  sponsor2:
+    name: "thoughtworks"
+    logo_filename: "thoughtworks.png"
+    site_url: "https://www.thoughtworks.com/"
 #   sponsor3:
 #     name: ""
 #     logo_filename: ""
