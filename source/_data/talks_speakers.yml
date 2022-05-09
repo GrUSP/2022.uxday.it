@@ -1,32 +1,163 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &luca-rosati
   speaker_in_speaker_lists: true
-  speaker_name:
-  speaker_pic_filename: .png
-  speaker_role: ""
-  speaker_bio: ""
+  speaker_name: Luca Rosati
+  speaker_pic_filename: luca-rosati.png
+  speaker_role: "Architetto dell'informazione & UX Designer"
+  speaker_bio: "Luca Rosati è architetto dell’informazione e user experience designer. Col suo lavoro cerca di semplificare l’interazione fra le persone e l’informazione negli spazi digitali e fisico-digitali.
+  È tra i fondatori di Architecta, l’associazione italiana degli architetti dell’informazione, e autore di quattro libri sull’architettura dell’informazione. Adora le costruzioni Lego, la pista Polistil, i vini rossi invecchiati. Il suo sito web è lucarosati.it."
   speaker_github_url: "https://github.com/"
-  speaker_twitter_url: ""
-  is_mc: true
+  speaker_twitter_url: "https://twitter.com/"
+  is_mc: false
+
+speaker_2: &francesco-vetica
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Vetica
+  speaker_pic_filename: francesco-vetica.png
+  speaker_role: "Head of Design & Partner @ Fifth Beat"
+  speaker_bio: "I currently lead Fifth Beat as Head of Design and one of the Partners since 2015. While working in Fifth Beat I'm Lecturer and Tutor Professor of UX and Interaction Design in the PSSD Master in Politecnico di Milano and also teaching UI Design at Talent Garden.
+Prior to that I've had the chance to spend a part of my career in London where I've been fortunate to learn on the field and to collaborate with international client Vodafone, Sony, EE, Three, Transport for London, Network Rail, Bupa. My 13 years of career started with a path in Industrial Design I nurturing the passion for photography and the love for the sea."
+  speaker_twitter_url: https://twitter.com/FrancescoVetica"
+  is_mc: false
+
+speaker_10: &laura-camillucci
+  speaker_in_speaker_lists: true
+  speaker_name: Laura Camillucci
+  speaker_pic_filename: laura-camillucci.png
+  speaker_role: "UI designer @ Fifth Beat"
+  speaker_bio: "Laureata in Industrial Design nel 2013, viaggiatrice da sempre. Con la mente o con lo zaino in spalla, Laura ama curiosare ed è affascinata dalle persone.
+Attualmente è UI designer in Fifth Beat e vive a Roma, dopo alcune precedenti esperienze tra Londra, Bruxelles e Torino. Negli ultimi 7 anni si è occupata principalmente di user interface e comunicazione digitale, progettando campagne e prodotti digitali. Recentemente ha tenuto il corso in Digital Art Direction (Master in Art Direction e Media Management di Primo Livello) presso il Quasar Institute for Advanced Design a Roma. Cerca di dare ai pixel una forma significativa e funzionale, progettata attraverso l'analisi e la ricerca degli utenti."
+  is_mc: false
+
+speaker_3: &raffaella-roviglioni
+  speaker_in_speaker_lists: true
+  speaker_name: Raffaella Roviglioni
+  speaker_pic_filename: raffaella-roviglioni.png
+  speaker_role: "Principal Experience Designer @ Thoughtworks Italia	"
+  speaker_bio: "Raffaella Roviglioni ha una formazione scientifica e un passato da agronoma. Poi, anni fa, la folgorazione della User Experience. Presente e futuro sono da Design Researcher, la sua passione l’ascolto, l’osservazione e le interviste con le persone. Grazie alla ricerca, aiuta le organizzazioni a prendere decisioni strategiche e a progettare prodotti e servizi. Nel tempo libero coccola i suoi gatti e confeziona costumi steampunk."
+  speaker_twitter_url: "https://twitter.com/Raffiro"
+  is_mc: false
+
+speaker_4: &laura-morabito
+  speaker_in_speaker_lists: true
+  speaker_name: Laura Morabito
+  speaker_pic_filename: laura-morabito.png
+  speaker_role: "UX Designer & Researcher @ UNGUESS"
+  speaker_bio: "Di giorno UX designer e researcher, di notte sono Chapter Lead di Ladies That UX Milan. Ho un passato da studentessa di letteratura russa e uno da web designer.
+Tendenzialmente introversa, la mia idea di divertimento è bere tè caldo in una giornata uggiosa."
+  speaker_twitter_url: "https://twitter.com/Lemmemente"
+  is_mc: false
+
+speaker_5: &claudio-postinghel
+  speaker_in_speaker_lists: true
+  speaker_name: Claudio Postinghel
+  speaker_pic_filename: claudio-postinghel.png
+  speaker_role: "Product Designer @ Belka"
+  speaker_bio: "Di giorno, Digital Product Designer per Belka — progetto prodotti digitali per aziende come Subito.it, Scalapay, Fatture in Cloud.
+Di notte, Pirata dell’internet — creo estensioni per Chrome, calendari dell’avvento di Figma, e qualsiasi cosa matta mi passi in mente."
+  speaker_github_url: "https://github.com/claudiopostinghel"
+  speaker_twitter_url: "https://twitter.com/skavalai"
+  is_mc: false
+
+speaker_6: &filomena-sepe
+  speaker_in_speaker_lists: true
+  speaker_name: Filomena Sepe
+  speaker_pic_filename: filomena-sepe.png
+  speaker_role: "Responsabile UX/UI @ nfoCert"
+  speaker_bio: "Sono una UX/UI Designer e Co-Founder di UX/UI Designer Italia. Ho lavorato negli ultimi anni prevalentemente nel settore fintech per clienti come Nexi o UniCredit, e di tanto in tanto anche per la pubblica amministrazione, come il progetto strategico che ha coinvolto il comune di Orvieto nella progettazione del nuovo processo di prenotazione online per fronteggiare l’emergenza Covid, e ora sono la responsabile del team UX di InfoCert."
+  is_mc: false
+
+speaker_7: &stefano-minoia
+  speaker_in_speaker_lists: true
+  speaker_name: Stefano Minoia
+  speaker_pic_filename: stefano-minoia.png
+  speaker_role: "Front-end Developer & Accessibility Specialist @ DigiVisionTech"
+  speaker_bio: "Sono un accanito sostenitore dell'accessibiltà e del software libero (soprattutto WordPress... si può dire?). Grazie alle Community, sono riuscito a trasformare questi interessi in attività professionali e passioni: credo non si possa desiderare di più! Nel tempo libero, oltre a sfinire i miei amici parlando di WordPress e accessibilità, canto in diversi cori e gioco a scacchi online."
+  speaker_github_url: "https://github.com/Ryokuhi/"
+  speaker_twitter_url: "https://twitter.com/RyokuhiOnWP"
+  is_mc: false
+
+speaker_8: &alessandra-petromilli
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandra Petromilli
+  speaker_pic_filename: alessandra-petromilli.png
+  speaker_role: "Chief Experience Officer @ Hinto"
+  speaker_bio: "Alessandra Petromilli ha maturato esperienza nel campo della User Experience tra Germania, Italia e Olanda in aziende leader nel settore E-commerce e Consulenza. Ideation Workshop, Usability Testing, Guerrilla Testing e Prototyping sono il suo pane quotidiano.
+Ha fondato a Monaco di Baviera, a Milano e Torino M-UX e T-UX, meetup di user experience hands on, dove i partecipanti possono provare ad applicare tecniche di progettazione UX e partecipare a serate di Usability Testing e Speed-testing.
+Attualmente e CXO di Ibuildings Italia, dove gestisce team multidisciplinari applicando metodologie agile e legate al Design thinking e organizzatrice della conferenza Intersection UX e Development."
+  speaker_twitter_url: "https://twitter.com/aleanan"
+  is_mc: false
+
+speaker_9: &filippo-gianessi
+  speaker_in_speaker_lists: true
+  speaker_name: Filippo Gianessi
+  speaker_pic_filename: filippo-gianessi.png
+  speaker_role: "Product Designer @ Spreaker from iHeart"
+  speaker_bio: "Product designer, agile enthusiast e maniaco di type design. Volevo progettare sedie ma le avevano già inventate: sono cresciuto tra il design industriale e lo sviluppo software.
+Il mio compito è mantenere le soluzioni semplici, scalabili e accessibili: nella progettazione, nel codice e nella strategia."
+  speaker_github_url: "https://github.com/filippogianessi"
+  speaker_twitter_url: "https://twitter.com/__TheKid__"
+  is_mc: false
+
+speaker_11: &federica-tonon
+  speaker_in_speaker_lists: true
+  speaker_name: Federica Tonon
+  speaker_pic_filename: federica-tonon.png
+  speaker_role: "Digital Strategist @ SparkFabrik"
+  speaker_bio: "Tuffo a bomba nel mare magnum del digitale grazie a uno dei primi Digital Incubator italiani nel 2007. Fra le realtà che lo compongono, sguazzo nella Web Agency, e seguo la sua crescita scoprendo l'Analisi e la Progettazione UX, le sfide del Digital Project Management, per trovare l'onda lunga nella strategia digitale.
+Ora, nella Design Unit di SparkFabrik, costruisco ponti inter-disciplinari e progetti con buon vento, dove UX Research, Design e Development siano coesi e fluidi."
+  is_mc: false
+
+speaker_12: &francesca-dellabianca
+  speaker_in_speaker_lists: true
+  speaker_name: Francesca Della Bianca
+  speaker_pic_filename: francesca-dellabianca.png
+  speaker_role: "UX Designer @ MV Labs"
+  speaker_bio: "Diplomata presso l'ISIA di Roma, si è specializzata negli ultimi anni nel design di esperienze utente per l'ambito industriale. E' docente dei corsi di User Experience design e Interaction Design presso l'Istituto Tecnico Superiore Alto Adriatico e consulente in materia di UX Design industriale per importanti realtà di rilievo nazionale e internazionale."
+  is_mc: false
+
+speaker_13: &serena-alampi
+  speaker_in_speaker_lists: true
+  speaker_name: Serena Alampi
+  speaker_pic_filename: serena-alampi.png
+  speaker_role: "Business Designer @ Digitiamo"
+  speaker_bio: "Il suo percorso professionale parte dal Design del prodotto industriale fino alla specializzazione in Design dell’interazione digitale. È esperta in User Experience e User Interface ed è appassionata di grafica, video editing e modellazione 3D."
+  is_mc: false
+
+speaker_14: &steve-maraspin
+  speaker_in_speaker_lists: true
+  speaker_name: Steve Maraspin
+  speaker_pic_filename: steve-maraspin.png
+  speaker_role: "Managing Partner @ MV Labs"
+  speaker_bio: "Opera nel mondo della progettazione e dello sviluppo software da 20 anni. Suoi interessi principali sono la progettazione incentrata sull'utente e le architetture software distribuite. Fondatore di MV Labs, ha lavorato alla progettazione e sviluppo di applicazioni enterprise per realtà industriali di rilievo nazionale e internazionale, per cui è anche consulente. Docente ai corsi di User Experience Design presso l'ITS Alto Adriatico, partecipa regolarmnete come speaker a conferenze Italiane ed Europee sulla progettazione di esperienze utente e software."
+  speaker_twitter_url: "https://twitter.com/maraspin"
+  is_mc: false
 
 speakers:
-  speaker_2: *regular_speaker
+  speaker_1: *serena-alampi
+  speaker_2: *laura-camillucci
+  speaker_3: *francesca-dellabianca
+  speaker_4: *filippo-gianessi
+  speaker_5: *steve-maraspin
+  speaker_6: *stefano-minoia
+  speaker_7: *laura-morabito
+  speaker_8: *alessandra-petromilli
+  speaker_9: *claudio-postinghel
+  speaker_10: *luca-rosati
+  speaker_11: *raffaella-roviglioni
+  speaker_12: *filomena-sepe
+  speaker_13: *federica-tonon
+  speaker_14: *francesco-vetica
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -38,11 +169,152 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2022-06-10T09:00+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2022-06-10T09:00+02:00
+        end_datetime: 2022-06-10T09:30+02:00
         talk_title: "Check-in"
+      opening:
+        item_type: "service"
+        start_datetime: 2022-06-10T09:30+02:00
+        end_datetime: 2022-06-10T09:45+02:00
+        talk_title: "Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime: 2022-06-10T17:25+02:00
+        end_datetime: 2022-06-10T17:35+02:00
+        talk_title: "Saluti dal GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2022-06-10T11:05+02:00
+        end_datetime: 2022-06-10T11:35+02:00
+        talk_title: "Pausa Caffè"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2022-06-10T15:10+02:00
+        end_datetime: 2022-06-10T15:40+02:00
+        talk_title: "Pausa Caffè"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2022-06-10T12:45+02:00
+        end_datetime: 2022-06-10T14:00+02:00
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
+    # talks
+      keynote:
+        item_type: "keynote"
+        track: *track_1
+        start_datetime: 2022-06-10T09:45+02:00
+        end_datetime: 2022-06-10T10:30+02:00
+        talk_title: "Il Sagrantino, il Rosso di Montefalco e la ricerca con le persone. Lezioni di user experience design dal mondo del vino"
+        talk_description: "Il Sagrantino di Montefalco è un vino longevo e molto potente, che ha conosciuto negli ultimi anni notevole fortuna; il rosso di Montefalco è considerato - erroneamente - il suo fratello minore. In realtà si tratta di due
+        vini diversi, entrambi prestigiosi, adatti a occasioni diverse. Ma che c'entra il vino con la user experience? E con la ricerca con le persone in particolare? Il
+        vino è senz’altro una forma di esperienza, per gli enofili forse tra le più elevate.
+        Prendendo spunto dal mondo del vino, esploriamo in che modo possiamo fare ricerca con le persone in progetti con tempi e budget limitati."
+        speakers:
+          speaker_1: *luca-rosati
+      evolution:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T10:30+02:00
+        end_datetime: 2022-06-10T11:05+02:00
+        talk_title: "The evolution of the role of designers: From task executors to strategic informants"
+        talk_description: "Come si definisce il ruolo di un designer secondo la maturità di un organizzazione? All'interno di questo case study racconteremo come le attività di progettazione abbiano ricercato sempre un impatto strategico e come designer abbiamo la necessità di sviluppare sempre più l'abilità di influenzare decisioni di business."
+        speakers:
+          speaker_1: *francesco-vetica
+          speaker_2: *laura-camillucci
+      ricerca:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T11:35+02:00
+        end_datetime: 2022-06-10T12:10+02:00
+        talk_title: "Tutto quello che può andare storto facendo ricerca (e lo farà)"
+        talk_description: "Nella ricerca con le persone le tecniche di base si imparano dai libri, i consigli pratici e la profondità dai corsi e dai mentori, e poi c’è l’esperienza reale sul campo, che si matura da soli e grazie allo scambio con i colleghi. È quella che ti insegna ad allenarti come ricercatore e ad affrontare gli imprevisti che sono sempre dietro l’angolo.
+          In questo intervento voglio raccontarvi delle storie di ricerca dal field che mi sono capitate nel corso degli ultimi 12 anni di lavoro in questo ambito, e condividere e discutere con voi le riflessioni che ne sono scaturite, e cosa ho imparato lungo la strada. L’intento è di trasmettervi quello stimolo a notare i dettagli, interiorizzare ogni insegnamento dalle esperienze quotidiane di ricerca che vivrete, e magari anche a passarvi una briciola della passione che nutro per questo lavoro, che mi accompagna ancora ogni giorno.
+          Da una storia all’altra, il talk toccherà questi argomenti:
+          <ul><li>- Gli obiettivi ballerini</li>
+          <li>- Il perimetro da concordare</li>
+          <li>- Il recruiting con sorpresa</li>
+          <li>- Il contesto che non puoi controllare</li>
+          <li>- I partecipanti inaspettati</li>
+          <li>- I problemi tecnici.</li></ul>
+          Per ciascuno di questi, vi racconterò almeno una storia da cui ho ricavato delle lezioni su cosa sia andato bene, cosa è andato storto, e cosa potevamo fare meglio.
+          In conclusione del talk, proverò a riassumere quanto imparato in un piccolo vademecum sui punti di attenzione quando si fa ricerca."
+        speakers:
+          speaker_1: *raffaella-roviglioni
+      utente:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T12:10+02:00
+        end_datetime: 2022-06-10T12:45+02:00
+        talk_title: "Quello che l'utente (non) dice: come Notion e l’Atomic UX Research possono aiutarci a democratizzare e scalare la user research"
+        talk_description: "Come fare ricerca quando si è in pochi e si fa tanto? Come rendere tutti partecipi e attenti ascoltatori della voce degli utenti? Come trasformare questa voce in insight trasversali e facilmente riutilizzabili, a prescindere da chi e quando li ha raccolti?
+        In questo talk vi racconterò come ho cercato di rispondere a queste domande creando un Research Repository partecipativo su Notion e utilizzando il modello dell’Atomic UX Research di Daniel Pidcock per costruire una conoscenza condivisa e distribuita, facile da consultare ed alimentare per tutti (non solo researcher e designer!) e in continua evoluzione.
+        Vedremo come costruire un repository che è assieme un playbook di buone pratiche e lezioni imparate sul campo, un strumento di raccolta della voce dell’utente per tutte le figure che vi sono in contatto e un framework per trasformare le evidenze di ricerca in insight e gli insight in azioni sul prodotto."
+        speakers:
+          speaker_1: *laura-morabito
+      handoff:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T14:00+02:00
+        end_datetime: 2022-06-10T14:35+02:00
+        talk_title: "Come fare handoff senza farti odiare"
+        talk_description: "Gli sviluppatori mi odiavano.
+        Cioè, non è che mi odiassero proprio, ma i loro occhi sorridenti della pausa caffè erano occhi rancorosi nei momenti di handoff. Così come i miei quando vedevo il mio design sviluppato. Allora mi sono messo all’opera:
+        <ul><li>- Ho osservato il lavoro mio e dei miei colleghi.</li>
+        <li>- Ho intervistato designer, developer, PM di altre realtà.</li>
+        <li>- Ho testato rituali e pratiche diverse.</li></ul>
+        E ho capito una cosa: i progetti hanno sempre delle aree di incertezza che sviluppo deve riempire. Questo è frustrante per sviluppo, perché non sa come eseguire, e frustrante per design, perché non vede sviluppato il design che aveva in mente.
+        E dannoso per la qualità dei progetti.
+        Adesso invece è tutto diverso! Il mio lavoro è più veloce e preciso. I rapporti e la frustrazione sono ai minimi storici. I rework e le incomprensioni pure. E i prodotti che sforniamo sono sempre più accurati.
+        Voglio condividere tutto questo, vi racconterò:
+        <ul><li>- perché sviluppo non capisce design,</li>
+        <li>- perchè design non capisce sviluppo,</li>
+        <li>-come portare a casa il miglior risultato, sul team e sul progetto.</li></ul>"
+        speakers:
+          speaker_1: *claudio-postinghel
+      designops:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T14:35+02:00
+        end_datetime: 2022-06-10T15:10+02:00
+        talk_title: "DesignOps - Come ho creato team UX da zero in azienda"
+        talk_description: "In Italia si parla pochissimo di DesignOps, sentiamo sempre parlare di DevOps, ma cosa succede quando devi mettere su un team da zero, in un'azienda dove tutti sono convinti che i designer siano degli sviluppatori?
+        Cosa succede, quando vieni assunta per formare un team ma nessuno ha ancora capito perché. Sembra assurdo vero? È stata la mia esperienza di quest'anno, sono la responsabile più giovane della mia azienda e sono stata assunta per formare questo famoso team UX, ti racconto com'è stato, come crearsi degli alleati e come sopravvivere in un azienda dove vige il veto dei developers."
+        speakers:
+          speaker_1: *filomena-sepe
+      accessibilità:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T15:40+02:00
+        end_datetime: 2022-06-10T16:15+02:00
+        talk_title: "Para-UX: la User eXperience per le persone con disabilità"
+        talk_description: "Parlare di User eXperience senza parlare di accessibilità è ormai anacronistico, ma troppo spesso sembra che questi due concetti siano in contrasto tra loro. Al contrario, fare attenzione alle necessità delle persone con disabilità spesso migliora la UX per tutti gli utenti, così come è vero che alcuni principi dello UX-oriented design possono essere utilizzati efficacemente per migliorare l'accessibilità di un sito o un'applicazione. Partendo dai diversi bisogni delle persone con disabilità, scopriremo insieme principi generali e tecniche pratiche per creare esperienze utente che siano realmente inclusive."
+        speakers:
+          speaker_1: *stefano-minoia
+      conversioni:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T16:15+02:00
+        end_datetime: 2022-06-10T16:50+02:00
+        talk_title: "Progettare la UX per le conversioni"
+        talk_description: "Gli utenti lasciano un sito Web quando non riescono a trovare ciò che vogliono o non trovano segnali che indichino il percorso da seguire.
+        Partire da come le persone fruiscono le informazioni è un modo efficace per migliorare il proprio conversion rate, ma non basta.
+        Durante la sessione Alessandra Petromilli, Chief Experience Officer di Hinto srl ci racconterà attraverso alcuni case studies, come fattori quali: micro copy, usabilità, architettura dell'informazione ed elementi di trust, siano la chiave per ottenere risultati ottimali."
+        speakers:
+          speaker_1: *alessandra-petromilli
+      prodotto:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-06-10T16:50+02:00
+        end_datetime: 2022-06-10T17:25+02:00
+        talk_title: "Build, measure, learn, repeat."
+        talk_description: "Un prodotto senza utenti non è un prodotto. La crescita della base utenti di un prodotto digitale è il tema esistenziale di qualsiasi business. Eppure poche persone parlano di come ottenerla, ancora meno di come affrontarla in maniera sistematica. In questo talk parleremo di come all'interno del team growth di Spreaker from iHeart abbiamo strutturato un processo di continuous learning attraverso la definizione e misurazione di esperimenti, delle difficoltà incontrate e dei risultati ottenuti."
+        speakers:
+          speaker_1: *filippo-gianessi
