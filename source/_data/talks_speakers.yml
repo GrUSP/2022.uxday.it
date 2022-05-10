@@ -68,7 +68,7 @@ speaker_6: &filomena-sepe
   speaker_in_speaker_lists: true
   speaker_name: Filomena Sepe
   speaker_pic_filename: filomena-sepe.png
-  speaker_role: "Responsabile UX/UI @ nfoCert"
+  speaker_role: "Responsabile UX/UI @ InfoCert"
   speaker_bio: "Sono una UX/UI Designer e Co-Founder di UX/UI Designer Italia. Ho lavorato negli ultimi anni prevalentemente nel settore fintech per clienti come Nexi o UniCredit, e di tanto in tanto anche per la pubblica amministrazione, come il progetto strategico che ha coinvolto il comune di Orvieto nella progettazione del nuovo processo di prenotazione online per fronteggiare l’emergenza Covid, e ora sono la responsabile del team UX di InfoCert."
   is_mc: false
 
@@ -169,8 +169,47 @@ tracks:
 
 days:
   day_1:
+    date: 2022-05-30T18:00+02:00
+    title: "30 Maggio - Online"
+    talks:
+      dati-aziendali:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-30T18:30+02:00
+        end_datetime: 2022-05-30T19:00+02:00
+        talk_title: "Il valore della UX applicata ai dati aziendali"
+        talk_description: "Spesso nel costruire nuovi prodotti o nel migliorarne di esistenti sia le piccole che le grandi aziende decidono di affidarsi a designer e ricercatori in ambito User Experience. Qual’è il valore nel combinare i principi della UX con le analisi dei dati aziendali?
+        Digitiamo, azienda che si occupa di Intelligenza Artificiale e sviluppo di prodotti digitali, ha utilizzato delle sessioni co-design e di analisi UX combinata all’analisi dei dati presenti in azienda portando ad una consapevolezza sulle potenzialità progettuali, sia riguardo a miglioramenti di processi e prodotti esistenti, sia riguardo alla costruzione di nuove soluzioni.
+        In questo intervento verrà raccontato come i principi dello UX design sono stati applicati nei processi di creazione di nuovi prodotti e miglioramento di prodotti esistenti, verranno presentati i casi studio di due grandi aziende che hanno scelto di valorizzare i loro dati, Carrefour e CentroStyle, e verranno infine esposti i risultati ottenuti con i valori ad essi collegati."
+        speakers:
+          speaker_1: *serena-alampi
+      senior:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-30T19:00+02:00
+        end_datetime: 2022-05-30T19:30+02:00
+        talk_title: "Umarèll Experience: cosa aspettarsi quando si progetta per un’utenza senior"
+        talk_description: "Come progettisti UX sarà sempre più probabile trovarci di fronte a un paradosso: progettare esperienze d’uso nuove per chi non ha mai né visto né provato le vecchie.
+        In un mondo di nativi digitali, tutti ci siamo trovati di fronte a richieste di aiuto di persone nate in tempi analogici, che devono adattarsi all’utilizzo imperante del mobile anche per i servizi più essenziali. Ma come dovrebbe essere l’esperienza d’uso ottimale per questa utenza?
+        La terminologia e i pattern più canonici non possono essere dati per scontati, vanno trovati nuovi pilastri e sfidati i propri bias. Raccoglieremo una serie di strumenti, un kit di base derivato dalla stessa voce ed esperienza con questi utenti, per poter mettere in cantiere una UX eccellente, a prova di Umarèll."
+        speakers:
+          speaker_1: *federica-tonon
+      industria:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-30T19:30+02:00
+        end_datetime: 2022-05-30T20:00+02:00
+        talk_title: "Dal progetto al prodotto. Un'esperienza in ambito industriale."
+        talk_description: "Quali sono le peculiarità della progettazione di esperienze in ambito industriale? Quali le similitudini con gli altri settori? Quali sono gli aspetti rilevanti da tenere in considerazione quando si passa da un progetto specifico a un prodotto destinato a più realtà?
+        Sono queste alcune delle domande a cui daremo una risposta nel talk. Analizzeremo il caso pratico dello sviluppo di un prodotto, nato dalla 'fusione' di processi di analisi e design in contesti simili ma tutti diversi tra loro. Con l'obiettivo di soddisfare le esigenze funzionali di clienti diversi, garantendo al tempo stesso una buona esperienza per gli utilizzatori finali.
+        Nel talk condivideremo gli approcci che abbiamo utilizzato, dando enfasi a quelli che hanno funzionato, e a quelli che abbiamo dovuto rivedere."
+        speakers:
+          speaker_1: *steve-maraspin
+          speaker_2: *francesca-dellabianca
+
+  day_2:
     date: 2022-06-10T09:00+02:00
-    title: "Day 1"
+    title: "10 Giugno - Faenza e Online"
     talks:
     # service
       checkin:
