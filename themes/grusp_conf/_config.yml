@@ -6,8 +6,8 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  # talks_speakers: talk e speaker
-  # schedule: programma
+  talks_speakers: talk e speaker
+  schedule: programma
   sponsor: sponsor
   # scommentare per generare pagina
   # menu item for workshop

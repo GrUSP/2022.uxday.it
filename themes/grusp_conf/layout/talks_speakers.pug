@@ -86,18 +86,18 @@ block content
             - the_id = day.title
             .row-info(id=the_id)
 
-              .info-icon
-                if(site.data.defaults.conference.is_online_only === true)
-                  include ../source/assets/ico/ico-online-conference.svg
-                else
-                  include ../source/assets/ico/ico-where.svg
+              //- .info-icon
+              //-   if(site.data.defaults.conference.is_online_only === true)
+              //-     include ../source/assets/ico/ico-online-conference.svg
+              //-   else
+              //-     include ../source/assets/ico/ico-where.svg
 
-              if(site.data.defaults.conference.is_online_only === true)
-                .info__location !{site.data.defaults.conference.online_location}
-              else
-                .info__location !{site.data.defaults.conference.city}
+              //- if(site.data.defaults.conference.is_online_only === true)
+              //-   .info__location !{site.data.defaults.conference.online_location}
+              //- else
+              //-   .info__location !{site.data.defaults.conference.city}
 
-              | &nbsp;|&nbsp;
+              //- | &nbsp;|&nbsp;
 
               .info-icon.padded
                 include ../source/assets/ico/ico-calendar.svg

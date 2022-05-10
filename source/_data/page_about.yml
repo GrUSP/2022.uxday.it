@@ -14,7 +14,7 @@ more:
   content_1:
     "uxday è la prima conferenza italiana dedicata esclusivamente alla User Experience, in tutte le sue declinazioni.
   </br> <br />Organizzata dal team GrUSP, come già <a href='https://cssday.it'>cssday</a> e <a href='https://kerning.it'>kerning</a>, sarà l'occasione per la community italiana di designer e in particolare per chi si occupa di UX di incontrarsi, condividere esperienze e conoscenze, far nascere nuovi progetti e collaborazioni.
-  </br> <br />uxday 2022 si svolge Venerdì 10 Giugno in modalità <b>ibrida</b>: di persona a Faenza e online."
+  </br> <br />uxday 2022 si svolge Venerdì 10 Giugno in modalità <b>ibrida</b>: di persona a Faenza e online. Lunedì 30 Maggio 2022 c'è 'Aspettando uxday', un evento online gratuito che presenta e anticipa la conferenza, con 3 talk."
   content_2:
 # past_edition:
 #   title: ""
@@ -40,3 +40,7 @@ team:
       name: "Michela Bertaina"
       role: "Community manager"
       pic_filename: "michela.png"
+    member_5:
+      name: "Ruggero Landolina"
+      role: "Supporter"
+      pic_filename: "ruggero.png"

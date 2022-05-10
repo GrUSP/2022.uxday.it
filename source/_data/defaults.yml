@@ -96,8 +96,8 @@ conference:
   speaker_count_text:
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
-  topics_title: "Argomenti e temi"
-  topics_description: "Parleremo di..."
+  topics_title: "Di cosa parliamo"
+  topics_description: "Tra gli argomenti della conferenza..."
   topics:
     - "UX"
     - "User Research"
@@ -114,7 +114,7 @@ conference:
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: true
+  media_visible: false
   media_pic_1: ""
   media_pic_2: ""
   media_pic_3: ""
@@ -131,12 +131,12 @@ conference:
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianuxday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Cinema Teatro Sarti"
   location_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
-  location_maps_url: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11424.934272024533!2d11.8804354!3d44.2845852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde16dcf939b49814!2sCinema%20Sarti!5e0!3m2!1sit!2sit!4v1639691332216!5m2!1sit!2sit"
-  location_maps_label: "Get directions"
-  location_readmore_label: "Read more"
+  location_maps_url: "https://goo.gl/maps/1T7LFJzvgWiy2VLEA"
+  location_maps_label: "Vai a Maps"
+  location_readmore_label: "Altre info Dove e Come"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
