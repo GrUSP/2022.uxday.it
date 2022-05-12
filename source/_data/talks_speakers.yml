@@ -11,8 +11,6 @@ speaker_1: &luca-rosati
   speaker_role: "Architetto dell'informazione & UX Designer"
   speaker_bio: "Luca Rosati è architetto dell’informazione e user experience designer. Col suo lavoro cerca di semplificare l’interazione fra le persone e l’informazione negli spazi digitali e fisico-digitali.
   È tra i fondatori di Architecta, l’associazione italiana degli architetti dell’informazione, e autore di quattro libri sull’architettura dell’informazione. Adora le costruzioni Lego, la pista Polistil, i vini rossi invecchiati. Il suo sito web è lucarosati.it."
-  speaker_github_url: "https://github.com/"
-  speaker_twitter_url: "https://twitter.com/"
   is_mc: false
 
 speaker_2: &francesco-vetica
@@ -22,7 +20,7 @@ speaker_2: &francesco-vetica
   speaker_role: "Head of Design & Partner @ Fifth Beat"
   speaker_bio: "I currently lead Fifth Beat as Head of Design and one of the Partners since 2015. While working in Fifth Beat I'm Lecturer and Tutor Professor of UX and Interaction Design in the PSSD Master in Politecnico di Milano and also teaching UI Design at Talent Garden.
 Prior to that I've had the chance to spend a part of my career in London where I've been fortunate to learn on the field and to collaborate with international client Vodafone, Sony, EE, Three, Transport for London, Network Rail, Bupa. My 13 years of career started with a path in Industrial Design I nurturing the passion for photography and the love for the sea."
-  speaker_twitter_url: https://twitter.com/FrancescoVetica"
+  speaker_twitter_url: "https://twitter.com/FrancescoVetica"
   is_mc: false
 
 speaker_10: &laura-camillucci
@@ -138,6 +136,23 @@ speaker_14: &steve-maraspin
   speaker_twitter_url: "https://twitter.com/maraspin"
   is_mc: false
 
+speaker_15: &nicolo-volpato
+  speaker_in_speaker_lists: true
+  speaker_name: Nicolò Volpato
+  speaker_pic_filename: nicolo-volpato.png
+  speaker_role: "Founder & CEO @ Tangible - Master of Ceremonies 'Aspettando uxday'"
+  speaker_bio: ""
+  speaker_twitter_url: "https://twitter.com/nicolovolpato"
+  is_mc: true
+
+speaker_16: &marco-santonocito
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Santonocito
+  speaker_pic_filename: marco-santonocito.png
+  speaker_role: "CTO @ Vitesy - Master of Ceremonies uxday"
+  speaker_bio: ""
+  is_mc: true
+
 speakers:
   speaker_1: *serena-alampi
   speaker_2: *laura-camillucci
@@ -153,6 +168,8 @@ speakers:
   speaker_12: *filomena-sepe
   speaker_13: *federica-tonon
   speaker_14: *francesco-vetica
+  speaker_15: *marco-santonocito
+  speaker_16: *nicolo-volpato
 
 tracks:
   track_1: &track_1
@@ -169,25 +186,14 @@ tracks:
 
 days:
   day_1:
-    date: 2022-05-30T18:00+02:00
+    date: 2022-05-30T18:30+02:00
     title: "30 Maggio - Online"
     talks:
-      dati-aziendali:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-30T18:30+02:00
-        end_datetime: 2022-05-30T19:00+02:00
-        talk_title: "Il valore della UX applicata ai dati aziendali"
-        talk_description: "Spesso nel costruire nuovi prodotti o nel migliorarne di esistenti sia le piccole che le grandi aziende decidono di affidarsi a designer e ricercatori in ambito User Experience. Qual’è il valore nel combinare i principi della UX con le analisi dei dati aziendali?
-        Digitiamo, azienda che si occupa di Intelligenza Artificiale e sviluppo di prodotti digitali, ha utilizzato delle sessioni co-design e di analisi UX combinata all’analisi dei dati presenti in azienda portando ad una consapevolezza sulle potenzialità progettuali, sia riguardo a miglioramenti di processi e prodotti esistenti, sia riguardo alla costruzione di nuove soluzioni.
-        In questo intervento verrà raccontato come i principi dello UX design sono stati applicati nei processi di creazione di nuovi prodotti e miglioramento di prodotti esistenti, verranno presentati i casi studio di due grandi aziende che hanno scelto di valorizzare i loro dati, Carrefour e CentroStyle, e verranno infine esposti i risultati ottenuti con i valori ad essi collegati."
-        speakers:
-          speaker_1: *serena-alampi
       senior:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-30T19:00+02:00
-        end_datetime: 2022-05-30T19:30+02:00
+        start_datetime: 2022-05-30T18:35+02:00
+        end_datetime: 2022-05-30T19:15+02:00
         talk_title: "Umarèll Experience: cosa aspettarsi quando si progetta per un’utenza senior"
         talk_description: "Come progettisti UX sarà sempre più probabile trovarci di fronte a un paradosso: progettare esperienze d’uso nuove per chi non ha mai né visto né provato le vecchie.
         In un mondo di nativi digitali, tutti ci siamo trovati di fronte a richieste di aiuto di persone nate in tempi analogici, che devono adattarsi all’utilizzo imperante del mobile anche per i servizi più essenziali. Ma come dovrebbe essere l’esperienza d’uso ottimale per questa utenza?
@@ -197,8 +203,8 @@ days:
       industria:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-30T19:30+02:00
-        end_datetime: 2022-05-30T20:00+02:00
+        start_datetime: 2022-05-30T19:15+02:00
+        end_datetime: 2022-05-30T19:55+02:00
         talk_title: "Dal progetto al prodotto. Un'esperienza in ambito industriale."
         talk_description: "Quali sono le peculiarità della progettazione di esperienze in ambito industriale? Quali le similitudini con gli altri settori? Quali sono gli aspetti rilevanti da tenere in considerazione quando si passa da un progetto specifico a un prodotto destinato a più realtà?
         Sono queste alcune delle domande a cui daremo una risposta nel talk. Analizzeremo il caso pratico dello sviluppo di un prodotto, nato dalla 'fusione' di processi di analisi e design in contesti simili ma tutti diversi tra loro. Con l'obiettivo di soddisfare le esigenze funzionali di clienti diversi, garantendo al tempo stesso una buona esperienza per gli utilizzatori finali.
@@ -206,6 +212,17 @@ days:
         speakers:
           speaker_1: *steve-maraspin
           speaker_2: *francesca-dellabianca
+      dati-aziendali:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-30T19:55+02:00
+        end_datetime: 2022-05-30T20:35+02:00
+        talk_title: "Il valore della UX applicata ai dati aziendali"
+        talk_description: "Spesso nel costruire nuovi prodotti o nel migliorarne di esistenti sia le piccole che le grandi aziende decidono di affidarsi a designer e ricercatori in ambito User Experience. Qual’è il valore nel combinare i principi della UX con le analisi dei dati aziendali?
+        Digitiamo, azienda che si occupa di Intelligenza Artificiale e sviluppo di prodotti digitali, ha utilizzato delle sessioni co-design e di analisi UX combinata all’analisi dei dati presenti in azienda portando ad una consapevolezza sulle potenzialità progettuali, sia riguardo a miglioramenti di processi e prodotti esistenti, sia riguardo alla costruzione di nuove soluzioni.
+        In questo intervento verrà raccontato come i principi dello UX design sono stati applicati nei processi di creazione di nuovi prodotti e miglioramento di prodotti esistenti, verranno presentati i casi studio di due grandi aziende che hanno scelto di valorizzare i loro dati, Carrefour e CentroStyle, e verranno infine esposti i risultati ottenuti con i valori ad essi collegati."
+        speakers:
+          speaker_1: *serena-alampi
 
   day_2:
     date: 2022-06-10T09:00+02:00
