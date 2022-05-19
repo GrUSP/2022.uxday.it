@@ -20,6 +20,14 @@ gold:
     logo_filename: "belka.svg"
     site_url: "http://belkadigital.com"
   sponsor2:
+    name: "Daruma"
+    logo_filename: "daruma.svg"
+    site_url: "http://www.darumahq.com/"
+  sponsor3:
+    name: "Hinto"
+    logo_filename: "hinto.svg"
+    site_url: "https://www.hinto.com/it"
+  sponsor4:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
