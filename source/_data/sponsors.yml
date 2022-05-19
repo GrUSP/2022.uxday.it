@@ -49,6 +49,10 @@ bronze:
     name: "thoughtworks"
     logo_filename: "thoughtworks.png"
     site_url: "https://www.thoughtworks.com/"
+  sponsor3:
+    name: "unguess"
+    logo_filename: "unguess.svg"
+    site_url: "https://unguess.io/"
 #   sponsor3:
 #     name: ""
 #     logo_filename: ""
