@@ -149,7 +149,7 @@ speaker_16: &marco-santonocito
   speaker_in_speaker_lists: true
   speaker_name: Marco Santonocito
   speaker_pic_filename: marco-santonocito.png
-  speaker_role: "CTO @ Vitesy - Master of Ceremonies uxday"
+  speaker_role: "Head of ProductOps (Edtech) @ Talent Garden - Master of Ceremonies uxday"
   speaker_bio: ""
   is_mc: true
 
