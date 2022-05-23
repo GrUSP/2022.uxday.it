@@ -37,6 +37,10 @@ silver:
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
   sponsor2:
+    name: "MVlabs"
+    logo_filename: "mvlabs.svg"
+    site_url: "https://mvlabs.it"
+  sponsor3:
     name: "SiteGround"
     logo_filename: "siteground.png"
     site_url: "https://www.siteground.com/"
