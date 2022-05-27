@@ -50,10 +50,14 @@ bronze:
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
   sponsor2:
+    name: "Spreaker from iHeart"
+    logo_filename: "spreaker.svg"
+    site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
+  sponsor3:
     name: "thoughtworks"
     logo_filename: "thoughtworks.png"
     site_url: "https://www.thoughtworks.com/"
-  sponsor3:
+  sponsor4:
     name: "unguess"
     logo_filename: "unguess.svg"
     site_url: "https://unguess.io/"
