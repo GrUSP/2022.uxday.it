@@ -33,31 +33,43 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "Apropos"
+    logo_filename: "apropos.png"
+    site_url: "https://www.apropos.srl"
+  sponsor2:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor2:
+  sponsor3:
     name: "MVlabs"
     logo_filename: "mvlabs.svg"
     site_url: "https://mvlabs.it"
-  sponsor3:
+  sponsor4:
     name: "SiteGround"
     logo_filename: "siteground.png"
     site_url: "https://www.siteground.com/"
 bronze:
   sponsor1:
+    name: "digitiamo"
+    logo_filename: "digitiamo.svg"
+    site_url: "www.digitamo.com"
+  sponsor2:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
-  sponsor2:
+  sponsor3:
     name: "Spreaker from iHeart"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor3:
+  sponsor4:
+    name: "stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://mule.to/p2gc"
+  sponsor5:
     name: "thoughtworks"
     logo_filename: "thoughtworks.png"
     site_url: "https://www.thoughtworks.com/"
-  sponsor4:
+  sponsor6:
     name: "unguess"
     logo_filename: "unguess.svg"
     site_url: "https://unguess.io/"
