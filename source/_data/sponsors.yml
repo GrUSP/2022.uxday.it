@@ -24,10 +24,14 @@ gold:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "Flowing"
+    logo_filename: "flowing.png"
+    site_url: "https://www.flowing.it/"
+  sponsor4:
     name: "Hinto"
     logo_filename: "hinto.svg"
     site_url: "https://www.hinto.com/it"
-  sponsor4:
+  sponsor5:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
