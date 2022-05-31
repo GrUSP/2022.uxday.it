@@ -44,8 +44,8 @@ conference:
   update_warning_header: ""
   update_title: "Lunedì 30 Maggio, online: 'Aspettando uxday'"
   update_description: "Un appuntamento gratuito con 3 talk, un assaggio della conferenza"
-  update_link_url: "https://2022.uxday.it/talks_speakers/#30%20Maggio%20-%20Online"
-  update_link_label: "vai al programma"
+  update_link_url: "https://www.youtube.com/watch?v=Bxzu0Kal0Pg"
+  update_link_label: "Rivedi la diretta su YouTube"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: false
   cfp_readmore_label: "Continua a leggere"

@@ -42,7 +42,7 @@ silver:
     site_url: "https://www.facile.it/"
   sponsor3:
     name: "Flowing"
-    logo_filename: "flowing.png"
+    logo_filename: "flowing.svg"
     site_url: "https://www.flowing.it/"
   sponsor4:
     name: "MVlabs"
