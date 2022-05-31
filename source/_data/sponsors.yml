@@ -32,10 +32,6 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor1:
-    name: "Apropos"
-    logo_filename: "apropos.png"
-    site_url: "https://www.apropos.srl"
   sponsor2:
     name: "Facile.it"
     logo_filename: "facile.svg"
