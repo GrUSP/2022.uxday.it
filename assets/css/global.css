@@ -5314,6 +5314,9 @@ header {
     .partners__container .inner .columns .column__media, .partners__container .inner .columns .column__media img {
       min-width: 100px;
       max-width: 100px; }
+    .partners__container .inner .columns .column__production, .partners__container .inner .columns .column__production img {
+      min-width: 200px;
+      max-width: 200px; }
 
 .community-partners-container h2 {
   color: #1A5F5D;
