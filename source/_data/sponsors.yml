@@ -52,7 +52,7 @@ bronze:
   sponsor1:
     name: "digitiamo"
     logo_filename: "digitiamo.svg"
-    site_url: "https://www.digitamo.com"
+    site_url: "https://www.digitiamo.com"
   sponsor2:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.png"
