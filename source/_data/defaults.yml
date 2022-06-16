@@ -29,7 +29,7 @@ conference:
   date: 2022-06-10T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
-  countdown_visible: true
+  countdown_visible: false
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
@@ -42,10 +42,10 @@ conference:
   update_visible: true
   update_is_warning: false
   update_warning_header: ""
-  update_title: "Lunedì 30 Maggio, online: 'Aspettando uxday'"
-  update_description: "Un appuntamento gratuito con 3 talk, un assaggio della conferenza"
-  update_link_url: "https://www.youtube.com/watch?v=Bxzu0Kal0Pg"
-  update_link_label: "Rivedi la diretta su YouTube"
+  update_title: "uxday torna il 9 Giugno 2023"
+  update_description: "Ci vediamo a Faenza alla prossima edizione di uxday"
+  update_link_url: "http://uxday-2023.eventbrite.it/"
+  update_link_label: "Assicurati un posto"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: false
   cfp_readmore_label: "Continua a leggere"
