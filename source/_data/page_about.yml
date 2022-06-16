@@ -39,8 +39,20 @@ team:
     member_4:
       name: "Michela Bertaina"
       role: "Community manager"
-      pic_filename: "michela.png"
+      pic_filename: "michela.jpg"
     member_5:
       name: "Ruggero Landolina"
       role: "Supporter"
-      pic_filename: "ruggero.png"
+      pic_filename: "ruggero.jpg"
+    member_6:
+      name: "Matteo Beccati"
+      role: "GrUSP Board Member"
+      pic_filename: "matteo.jpg"
+    member_7:
+      name: "Cesare D'Amico"
+      role: "GrUSP Board Member"
+      pic_filename: "cesare.jpg"
+    member_8:
+      name: "Daniel Londero"
+      role: "GrUSP Board Member"
+      pic_filename: "daniel.jpg"
